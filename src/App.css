@@ -1,0 +1,105 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.myClass{
+  padding-top: 50px;
+  margin-bottom: 0px;
+}
+
+#player{
+  background-color: rgb(236, 215, 22);
+  border: ridge black;
+  width: 82vw;
+  /* padding-left: 40px;
+  padding-right: 40px; */
+  border-radius: 55px;
+  margin-top: 20px;
+  filter: sepia(60%) saturate(90%) grayscale(3) contrast(100%) invert(20%);
+}
+
+.text-primary{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 5000px;
+
+  font-style: italic;
+}
+
+.fontclass{
+  font-family:"Kumbh Sans";
+  font-style: italic;
+  font-weight: 800;
+  font-size: large;
+  margin-top: 80px;
+}
+
+#playButton{
+  margin-left:50px;
+  margin-top:25px;
+  height: 60px;
+  font-family:"Kumbh Sans";
+  font-style: italic;
+  font-weight: 800;
+  width: 100px;
+  border-radius: 50px;
+  border: ridge 3px;
+}
+
+.margin-class{
+  margin-bottom: 10px;
+  margin-top: 5px;
+}
+
+.my-card{
+  margin-top: 20px;
+  border-radius: 100px;
+  font-family: "Kumbh Sans";
+  display: inline-flex;
+  margin-left: 20px;
+  margin-right: 10px;
+  border: ridge 3px;
+}
+
+.card-img{
+  width:150px;
+  height:150px;
+  margin-Left:45px;
+  margin-Top:15px; 
+  border-radius:25px;
+  border: ridge rgb(236, 215, 22);
+}
